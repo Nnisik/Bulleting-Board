@@ -29,20 +29,6 @@
                         echo '</div>';
                         echo '</div>';
                     }
-                    
-                    $i = 0;
-                    while ($i <= 5){
-                        echo '<div class="board-item">';
-                        echo '<div class="item-info">';
-                        echo '<h2>Item header</h2>';
-                        echo '<p>Item description</p>';
-                        echo '</div>';
-                        echo '<div class="item-extra-info">';
-                        echo 'autor name, post date';
-                        echo '</div>';
-                        echo '</div>';
-                        $i+=1;
-                    }
                 ?>
             </div>
         </div>
