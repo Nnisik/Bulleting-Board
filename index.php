@@ -15,21 +15,23 @@
         </div>
         <div class="container">
             <div class="board">
-                <?php
-                    include_once "./includes/db.inc.php";
-
-                    foreach (getAllAdverts() as $row) {
-                        echo '<div class="board-item">';
-                        echo '<div class="item-info">';
-                        echo '<h2>'.$row['advert_header'].'</h2>';
-                        echo '<p>'.$row['desrip'].'</p>';
-                        echo '</div>';
-                        echo '<div class="item-extra-info">';
-                        echo $row['creatorID'].', '.$row['create_date'];
-                        echo '</div>';
-                        echo '</div>';
-                    }
-                ?>
+                <!--
+                    <?php
+                        include_once "./includes/db.inc.php";
+    
+                        foreach (getAllAdverts() as $row) {
+                            echo '<div class="board-item">';
+                            echo '<div class="item-info">';
+                            echo '<h2>'.$row['advert_header'].'</h2>';
+                            echo '<p>'.$row['desrip'].'</p>';
+                            echo '</div>';
+                            echo '<div class="item-extra-info">';
+                            echo $row['creatorID'].', '.$row['create_date'];
+                            echo '</div>';
+                            echo '</div>';
+                        }
+                    ?>
+                -->
             </div>
         </div>
     </body>

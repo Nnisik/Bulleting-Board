@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav {
+    height: 5vh;
+    padding: 1vh 1vh;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.nav-logo {
+    transform: translateX(60px);
+}
+
+.nav-links {
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links-btn {
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.nav-links-btn:hover {
+    color: orangered;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main {
+    margin: 24px 0;
+}
+
+.main-search {
+    width: 80%;
+    height: 48px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 24px;
+}
+
+.main-search-input {
+    width: 100%;
+    transform: translateX(20px);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-justify: center;
+    letter-spacing: 1px;
+}
+
+.main-search-btn {
+    height: 48px;
+    width: 96px;
+    background: transparent;
+    border: none;
+}
+
+.main-search-btn > img{
+    height: 30px;
+    width: 30px;
+}
+
+.main-header {
+    width: 90%;
+    margin: 24px auto;
+    justify-content: space-between;
+    color: rgb(20, 20, 20);
+}
+
+.main-header > div {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#search-category,
+#found-reselts {
+    margin: 0 10px;
+}
+
+.orange {
+    color: orangered;
+}
+
+.main-header-sort-btn {
+    height: 36px;
+    aspect-ratio: 3/1;
+    border: 2px solid grey;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.filters-area {
+    max-height: 600px;
+    width: 200px;
+    justify-content: space-between;
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+.filters-area-parametrs {
+    height: fit-content;
+}
+
+.filters-area-header {
+    margin: 0 5px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.filters-btn {
+    height: 30px;
+    width: 80%;
+    margin: 0 auto 5px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background: orangered;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.board {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(205px, 305px));
+}
+
+.post {
+    height: 200px;
+    margin: 5px;
+    background: rgb(110, 155, 110);
+    border: none;
+    border-radius: 15px;
+}

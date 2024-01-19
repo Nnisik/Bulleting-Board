@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./new-style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="flex nav">
+    <img src="./img/icons8-board-50.png" alt="" class="nav-logo">
+    <div class="flex nav-links">
+        <a class="flex flex-column nav-links-btn" id="home-btn">На Главную</a>
+        <a class="flex flex-column nav-links-btn" id="log_in-btn">Войти</a>
+        <a class="flex flex-column nav-links-btn" id="log_out-btn">Выйти</a>
+    </div>
+  </div>
+  <div class="main">
+    <div class="flex main-search">
+        <input type="text" name="q" id="search-input" class="main-search-input" placeholder="Search...">
+        <button class="main-search-btn"><img src="./img/icons8-search-48.png" alt=""></button>
+    </div>
+    <div class="flex main-header">
+        <div class="flex">
+            Browse <p id="search-category">All</p><p id="found-reselts" class="orange">"5 found"</p>
+        </div>
+        <button id="sort-btn" class="main-header-sort-btn">Sort</button>
+    </div>
+  </div>
+  <div class="flex container">
+    <div class="flex flex-column filters-area">
+        <div class="filters-area-parametrs">
+            <div class="filters-area-header">
+                Filters
+            </div>
+            <div class="filtes-group">Shop by Category</div>
+        </div>
+        <button id="filters-btn" class="filters-btn">Save Filters</button>
+    </div>
+    <div id="board" class="board">
+        <div class="post">
+            <h3>Post Header</h3>
+            <p class="post-descrip">descrip-descrip-descrip-descrip-descrip</p>
+            <div class="post-info">
+                <p>Rayan Gosling</p>
+                <p>17.01.2024</p>
+            </div>
+        </div>
+        <div class="post">
+            <h3>Post Header</h3>
+            <p class="post-descrip">descrip-descrip-descrip-descrip-descrip</p>
+            <div class="post-info">
+                <p>Rayan Gosling</p>
+                <p>17.01.2024</p>
+            </div>
+        </div>
+        <div class="post">
+            <h3>Post Header</h3>
+            <p class="post-descrip">descrip-descrip-descrip-descrip-descrip</p>
+            <div class="post-info">
+                <p>Rayan Gosling</p>
+                <p>17.01.2024</p>
+            </div>
+        </div>
+        <div class="post">
+            <h3>Post Header</h3>
+            <p class="post-descrip">descrip-descrip-descrip-descrip-descrip</p>
+            <div class="post-info">
+                <p>Rayan Gosling</p>
+                <p>17.01.2024</p>
+            </div>
+        </div>
+        <div class="post">
+            <h3>Post Header</h3>
+            <p class="post-descrip">descrip-descrip-descrip-descrip-descrip</p>
+            <div class="post-info">
+                <p>Rayan Gosling</p>
+                <p>17.01.2024</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <script src="./js/nav.js"></script>
+</body>
+</html>
