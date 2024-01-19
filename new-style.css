@@ -19,29 +19,20 @@ a, button {
 .nav {
     height: 5vh;
     padding: 1vh 1vh;
-    justify-content: space-between;
+    justify-content: end;
     border-bottom: 1px solid rgb(204, 204, 204);
 }
 
-.nav-logo {
-    transform: translateX(60px);
-}
-
-.nav-links {
-    width: fit-content;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-.nav-links-btn {
+.nav-btn {
     height: 100%;
     width: 100px;
     text-align: center;
     transition-duration: 0.3s;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
 }
 
-.nav-links-btn:hover {
+.nav-btn:hover {
     color: orangered;
     font-weight: bold;
     letter-spacing: 2px;
@@ -148,10 +139,14 @@ a, button {
     letter-spacing: 1px;
 }
 
-.board {
+#board-container {
     width: 100%;
+}
+
+.board {
+    width: inherit;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(205px, 305px));
+    grid-template-columns: repeat(auto-fill, minmax(155px, 305px));
 }
 
 .post {
