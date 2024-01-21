@@ -6,7 +6,6 @@
         <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
         <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-        <link rel="stylesheet" href="./style/style.css" />
         <link rel="stylesheet" href="./style/new-style.css" />
         <title>Доска Объявлений</title>
     </head>
@@ -14,8 +13,8 @@
         <div id="header"></div>
         <div class="main">
             <div class="flex main-search">
-                <input type="text" name="q" id="search-input" class="main-search-input" placeholder="Search..."/>
-                <button class="main-search-btn">
+                <input type="text" name="q" id="search-input" class="no-border main-search-input" placeholder="Search..."/>
+                <button class="no-border main-search-btn">
                     <img src="./img/icons8-search-48.png" alt="" />
                 </button>
             </div>
@@ -32,7 +31,7 @@
                     <div class="filters-area-header">Filters</div>
                     <div class="filtes-group">Shop by Category</div>
                 </div>
-                <button id="filters-btn" class="filters-btn">Save Filters</button>
+                <button id="filters-btn" class="no-border filters-btn">Save Filters</button>
             </div>
             <div id="board-container"></div>
         </div>

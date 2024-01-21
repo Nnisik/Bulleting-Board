@@ -9,7 +9,7 @@ function changeForm(page) {
 }
 
 function SubmitButton(props) {
-  return <button class="form-submit-btn">{props.text}</button>;
+  return <button class="no-border form-submit-btn">{props.text}</button>;
 }
 
 function InputField(props) {
@@ -19,7 +19,7 @@ function InputField(props) {
         type={props.type}
         name={props.name}
         placeholder={props.text}
-        class="form-text-input"
+        class="no-border form-text-input"
       />
     </div>
   );
@@ -28,7 +28,7 @@ function InputField(props) {
 function ChangeFormBtn(props) {
   return (
     <div class="chng-form-btn-container">
-      <button data-page={props.page} class="chng-form-btn">
+      <button data-page={props.page} class="no-border chng-form-btn">
         {props.text}
       </button>
     </div>

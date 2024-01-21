@@ -16,6 +16,10 @@ a, button {
     justify-content: center;
 }
 
+.no-border {
+    border: none;
+}
+
 .nav {
     height: 5vh;
     padding: 1vh 1vh;
@@ -50,7 +54,6 @@ a, button {
 .main-search-input {
     width: 100%;
     transform: translateX(20px);
-    border: none;
     outline: none;
     font-size: 16px;
     text-justify: center;
@@ -61,7 +64,6 @@ a, button {
     height: 48px;
     width: 96px;
     background: transparent;
-    border: none;
 }
 
 .main-search-btn > img{
@@ -127,7 +129,6 @@ a, button {
     height: 30px;
     width: 80%;
     margin: 0 auto 5px;
-    border: none;
     border-radius: 15px;
     color: white;
     background: orangered;
@@ -149,7 +150,6 @@ a, button {
     height: 200px;
     margin: 5px;
     background: rgb(110, 155, 110);
-    border: none;
     border-radius: 15px;
 }
 
@@ -187,7 +187,6 @@ a, button {
 .form-text-input {
     padding: 0 10px;
     background: transparent;
-    border: none;
     outline: none;
 }
 
@@ -225,7 +224,6 @@ a, button {
     padding: 3px 0;
     background: orangered;
     color: white;
-    border: none;
     border-radius: 12px;
     font-size: 20px;
     transition-duration: 0.3s;
@@ -243,7 +241,6 @@ a, button {
 .chng-form-btn {
     background: transparent;
     color: rgb(20, 20, 20);
-    border: none;
 }
 
 .chng-form-btn:hover {
