@@ -38,14 +38,10 @@ a, button {
     letter-spacing: 2px;
 }
 
-.main {
-    margin: 24px 0;
-}
-
 .main-search {
     width: 80%;
     height: 48px;
-    margin: 0 auto;
+    margin: 24px auto 0;
     justify-content: space-between;
     border: 1px solid rgb(204, 204, 204);
     border-radius: 24px;
@@ -155,4 +151,101 @@ a, button {
     background: rgb(110, 155, 110);
     border: none;
     border-radius: 15px;
+}
+
+.login-container {
+    justify-content: center;
+}
+
+.form {
+    align-items: center;
+    padding: 2vh 5vh;
+    border: 1px solid rgb(204, 204, 204);
+    border-top: none;
+}
+
+.form-header {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.form-container {
+    height: fit-content;
+    width: 450px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.form-input {
+    height: 48px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 12px;
+}
+
+.form-text-input {
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.form-text-input {
+    width: 445px;
+}
+
+.form-password-input {
+    width: 400px;
+    padding: 0 10px;
+    border: none;
+    background: transparent;
+}
+
+.form-psw-btn {
+    width: 48px;
+    background: url("../img/icons8-closed-eye-48.png");
+    border: none;
+    outline: none;
+}
+
+.form-submit-btn {
+    width: 40%;
+    padding: 3px 0;
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.form-submit-btn {
+    width: 40%;
+    padding: 3px 0;
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+
+.form-submit-btn:hover {
+    background: orange;
+    letter-spacing: 2px;
+}
+
+.chng-form-btn-container {
+    margin-top: 5vh;
+}
+
+.chng-form-btn {
+    background: transparent;
+    color: rgb(20, 20, 20);
+    border: none;
+}
+
+.chng-form-btn:hover {
+    color: orangered;
 }
