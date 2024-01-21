@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.no-border {
+  border: none;
+}
+
+.nav {
+  height: 5vh;
+  padding: 1vh 1vh;
+  justify-content: end;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.nav-btn {
+  height: 100%;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+}
+
+.nav-btn:hover {
+  color: orangered;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.main-search {
+  width: 80%;
+  height: 48px;
+  margin: 24px auto 0;
+  justify-content: space-between;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 24px;
+}
+
+.main-search-input {
+  width: 100%;
+  transform: translateX(20px);
+  outline: none;
+  font-size: 16px;
+  text-justify: center;
+  letter-spacing: 1px;
+}
+
+.main-search-btn {
+  height: 48px;
+  width: 96px;
+  background: transparent;
+}
+
+.main-search-btn > img {
+  height: 30px;
+  width: 30px;
+}
+
+.main-header {
+  width: 90%;
+  margin: 24px auto;
+  justify-content: space-between;
+  color: rgb(20, 20, 20);
+}
+
+.main-header > div {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#search-category,
+#found-reselts {
+  margin: 0 10px;
+}
+
+.orange {
+  color: orangered;
+}
+
+.main-header-sort-btn {
+  height: 36px;
+  aspect-ratio: 3/1;
+  border: 2px solid grey;
+  border-radius: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.filters-area {
+  max-height: 600px;
+  width: 200px;
+  justify-content: space-between;
+  border-right: 1px solid rgb(204, 204, 204);
+}
+
+.filters-area-parametrs {
+  height: fit-content;
+}
+
+.filters-area-header {
+  margin: 0 5px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.filters-btn {
+  height: 30px;
+  width: 80%;
+  margin: 0 auto 5px;
+  border-radius: 15px;
+  color: white;
+  background: orangered;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+#board-container {
+  width: 100%;
+}
+
+.board {
+  width: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 305px));
+}
+
+.post {
+  height: 200px;
+  margin: 5px;
+  background: rgb(110, 155, 110);
+  border-radius: 15px;
+}
+
+.login-container {
+  justify-content: center;
+}
+
+.form {
+  align-items: center;
+  padding: 2vh 5vh;
+  border: 1px solid rgb(204, 204, 204);
+  border-top: none;
+}
+
+.form-header {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form-container {
+  height: fit-content;
+  width: 450px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.form-input {
+  height: 48px;
+  margin-bottom: 5px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 12px;
+}
+
+.form-text-input {
+  padding: 0 10px;
+  background: transparent;
+  outline: none;
+}
+
+.form-text-input {
+  width: 445px;
+}
+
+.form-password-input {
+  width: 400px;
+  padding: 0 10px;
+  border: none;
+  background: transparent;
+}
+
+.form-psw-btn {
+  width: 48px;
+  background: url("../img/icons8-closed-eye-48.png");
+  border: none;
+  outline: none;
+}
+
+.form-submit-btn {
+  width: 40%;
+  padding: 3px 0;
+  background: orangered;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.form-submit-btn {
+  width: 40%;
+  padding: 3px 0;
+  background: orangered;
+  color: white;
+  border-radius: 12px;
+  font-size: 20px;
+  transition-duration: 0.3s;
+}
+
+.form-submit-btn:hover {
+  background: orange;
+  letter-spacing: 2px;
+}
+
+.chng-form-btn-container {
+  margin-top: 5vh;
+}
+
+.chng-form-btn {
+  background: transparent;
+  color: rgb(20, 20, 20);
+}
+
+.chng-form-btn:hover {
+  color: orangered;
+}
+
+/*# sourceMappingURL=style.css.map */

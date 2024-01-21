@@ -1,6 +1,6 @@
 function Post() {
     return (
-        <div class="no-border post">
+        <div class="no-borderpost">
             <h3>Post Header</h3>
             <p class="post-descrip">descrip-descrip-descrip-descrip-descrip</p>
             <div class="post-info">
