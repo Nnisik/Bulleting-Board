@@ -1,9 +1,8 @@
 # Full-stack Bullet Board Site
 # Technologies used
 * PHP
-* JavaScript
-* HTML
-* CSS
+* ReactJS
+* SASS
 
 # Functionalities
 * -
