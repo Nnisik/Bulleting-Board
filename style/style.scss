@@ -1,5 +1,7 @@
 $color: orangered;
 $background: rgb(204, 204, 204);
+$border-grey: grey;
+$text-color: rgb(20, 20, 20);
 
 * {
     margin: 0;
@@ -36,7 +38,7 @@ a, button {
     text-align: center;
     transition-duration: 0.3s;
     text-decoration: none;
-    color: rgb(20, 20, 20);
+    color: $text-color;
 }
 
 .nav-btn:hover {
@@ -98,7 +100,7 @@ a, button {
 .main-header-sort-btn {
     height: 36px;
     aspect-ratio: 3/1;
-    border: 2px solid grey;
+    border: 2px solid $border-grey;
     border-radius: 18px;
     font-size: 20px;
     font-weight: bold;
@@ -133,7 +135,7 @@ a, button {
     width: 80%;
     margin: 0 auto 5px;
     border-radius: 15px;
-    color: white;
+    color: $background;
     background: $color;
     font-size: 13px;
     letter-spacing: 1px;
@@ -163,7 +165,7 @@ a, button {
 .form {
     align-items: center;
     padding: 2vh 5vh;
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid $border-grey;
     border-top: none;
 }
 
@@ -183,7 +185,7 @@ a, button {
 .form-input {
     height: 48px;
     margin-bottom: 5px;
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid $border-grey;
     border-radius: 12px;
 }
 
@@ -197,26 +199,11 @@ a, button {
     width: 445px;
 }
 
-.form-password-input {
-    width: 400px;
-    padding: 0 10px;
-    border: none;
-    background: transparent;
-}
-
-.form-psw-btn {
-    width: 48px;
-    background: url("../img/icons8-closed-eye-48.png");
-    border: none;
-    outline: none;
-}
-
 .form-submit-btn {
     width: 40%;
     padding: 3px 0;
     background: orangered;
-    color: white;
-    border: none;
+    color: $background;
     border-radius: 12px;
     font-size: 20px;
     letter-spacing: 1px;
@@ -226,7 +213,7 @@ a, button {
     width: 40%;
     padding: 3px 0;
     background: $color;
-    color: white;
+    color: $background;
     border-radius: 12px;
     font-size: 20px;
     transition-duration: 0.3s;
@@ -243,7 +230,7 @@ a, button {
 
 .chng-form-btn {
     background: transparent;
-    color: rgb(20, 20, 20);
+    color: $text-color;
 }
 
 .chng-form-btn:hover {
