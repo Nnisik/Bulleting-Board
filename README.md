@@ -5,6 +5,9 @@
 * SASS
 
 # Functionalities
-* -
+* authentification
+* searching
+* * by name
+  * by category
 
 # Screenshors
