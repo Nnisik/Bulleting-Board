@@ -7,7 +7,7 @@
 # Functionalities
 * authentification
 * searching
-* * by name
+  * by name
   * by category
 
 # Screenshors
